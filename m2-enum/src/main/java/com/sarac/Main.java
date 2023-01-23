@@ -42,6 +42,17 @@ public class Main {
         calculator(27,15,mathOperators.SUBTRACTION);
         calculator(26,13,mathOperators.DIVISION);
 
+        System.out.println("how to retrieve constant value");
+
+        System.out.println(Currency.PENNY.getValue());
+        System.out.println(Currency.NICKLE.getValue());
+        System.out.println(Currency.DIME.getValue());
+        System.out.println(Currency.QUARTER.getValue());
+
+        System.out.println("-------------------------------------");
+        //Ordinal is showing index number of constant
+        System.out.println(Currency.QUARTER.ordinal());//index=3
+
 
     }
 
