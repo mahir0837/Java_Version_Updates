@@ -28,6 +28,19 @@ public class Main {
         for (Integer i : items1) {
             System.out.println(i*2);
         }
+        System.out.println("---------------------------------------");
+        FootballPlayer joe=new FootballPlayer("Joe");//Joe register himself as a Football Player
+        BaseballPlayer pat=new BaseballPlayer("Pat");
+        SoccerPlayer Beckham=new SoccerPlayer("Beckham");
+
+        Team<SoccerPlayer> liverpool=new Team("Liverpool");//Team accepting any object
+        //liverpool.addPlayer(joe);
+        //liverpool.addPlayer(pat);
+        liverpool.addPlayer(Beckham);
+        //Team<String>brokenTeam=new Team<>("What kinf of team is it ?");
+        //Team<Integer>t2=new Team<>("Very weird");
+
+
 
     }
 }
