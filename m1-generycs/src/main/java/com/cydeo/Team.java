@@ -3,7 +3,8 @@ package com.cydeo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team<T> {//T-SoccerPlayer,FootballPlayer,BaseballPlayer
+public class Team<T extends Player> {//T-SoccerPlayer,FootballPlayer,BaseballPlayer,Anylass you can pass to team
+    //Should not accept any class. It should accept only superclass and subclass
 
     public  String name;
     private List<T> members=new ArrayList<>();
