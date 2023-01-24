@@ -20,6 +20,9 @@ public class AppleTest {
         List<AppleClass>greenApple=filterApples(listApple,new GreenApple());
         System.out.println("Green Apple "+greenApple);
 
+
+
+
     }
 
     private static List<AppleClass>filterApples(List<AppleClass>apples,Apple appletest){

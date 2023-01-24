@@ -1,6 +1,8 @@
 package com.sarac.FarmerTask;
 
+@FunctionalInterface
 public interface Apple {
 
-    public boolean test(AppleClass apple);
+     boolean test(AppleClass apple);
+
 }
