@@ -3,6 +3,7 @@ package com.sarac.FarmerTask;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class AppleTest {
 
@@ -20,7 +21,10 @@ public class AppleTest {
         List<AppleClass>greenApple=filterApples(listApple,new GreenApple());
         System.out.println("Green Apple "+greenApple);
 
+        System.out.println("-----------------------");
 
+        Apple weightApple=(apple)->apple.getWeight()>200;
+        System.out.println(filterApples(listApple, weightApple));
 
 
     }
