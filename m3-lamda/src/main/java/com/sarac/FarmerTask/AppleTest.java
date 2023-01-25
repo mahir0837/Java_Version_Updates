@@ -16,6 +16,8 @@ public class AppleTest {
 
         List<AppleClass>listApple=new ArrayList<>(Arrays.asList(apple1,apple2,apple3,apple4));
 
+
+
         List<AppleClass>heavyApple=filterApples(listApple,new HeavyApple());
         System.out.println("Heavy Apple "+heavyApple);
         List<AppleClass>greenApple=filterApples(listApple,new GreenApple());
