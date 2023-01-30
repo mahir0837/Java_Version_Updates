@@ -1,6 +1,7 @@
 package com.sarac;
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -29,5 +30,7 @@ public class Main {
 
         BiFunction<myClass,Integer,Double>b1=myClass::method;
 
+        Consumer<Integer>display=i-> System.out.println(i);
+        Consumer<Integer>display2=System.out::println;
     }
 }
