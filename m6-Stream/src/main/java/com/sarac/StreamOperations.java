@@ -31,5 +31,10 @@ public class StreamOperations {
         integerList.stream().filter(i->i%2==0)
                 .skip(1).forEach(System.out::println);
 
+        //Map
+        System.out.println("Map"); //6
+        integerList.stream().map(number->number*2)
+                .filter(i->i%3==0)
+                .forEach(System.out::println);
     }
 }
