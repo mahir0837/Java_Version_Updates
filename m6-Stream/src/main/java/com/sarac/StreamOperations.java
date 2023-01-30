@@ -26,5 +26,10 @@ public class StreamOperations {
         integerList.stream().filter(i->i%2==0)
                 .limit(1).forEach(System.out::println);
 
+        //Skip
+        System.out.println("Skip");  //4
+        integerList.stream().filter(i->i%2==0)
+                .skip(1).forEach(System.out::println);
+
     }
 }
