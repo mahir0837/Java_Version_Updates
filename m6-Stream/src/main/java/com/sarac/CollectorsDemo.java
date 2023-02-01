@@ -71,13 +71,13 @@ public class CollectorsDemo {
         System.out.println(str);
 
         //partitioningBy():is used to partition a stream of objects(or a set of elements (base on the given predicate))
-
+        System.out.println("partitioningBy()");
         Map<Boolean,List<Dish>>veggieDish=DishData.gettAll().stream()
                 .collect(Collectors.partitioningBy(Dish::isVegetarian));
         System.out.println(veggieDish);
 
         //groupingBy(): is used for grouping objects by some property and storing result in a Map Instance
-
+        System.out.println("groupingBy()");
         Map<Type,List<Dish>>dishType=DishData.gettAll().stream()
                 .collect(Collectors.groupingBy(Dish::getType));
 
