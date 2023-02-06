@@ -1,12 +1,15 @@
 package com.sarac;
 
+import com.sarac.java9.FactoryMethodDemo;
+import com.sarac.java9.ModuleDemo;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
 public class OptionalDemo {
 
-    public static void main(String[] args) {
+    public static <ModuleDemo, FactoryMethodDemo> void main(String[] args) {
 
         List<Integer> number = Arrays.asList(2, 4, 2, 10, 23);
 
