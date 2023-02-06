@@ -27,7 +27,7 @@ public class FactoryMethodDemo {
 
                 Map.entry("Samsung TV",1),
                 Map.entry("PSP",5),
-                Map.entry("Cahir",5)
+                Map.entry("Chair",5)
         );
     }
 }
