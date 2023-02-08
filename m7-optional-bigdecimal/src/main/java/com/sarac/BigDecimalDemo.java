@@ -1,5 +1,7 @@
 package com.sarac;
 
+import com.cydeo.java9.FactoryMethodsDemo;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
@@ -39,7 +41,7 @@ public class BigDecimalDemo {
         System.out.println(new BigDecimal("1").compareTo(new BigDecimal("2"))); //-1
 
 
-
+        FactoryMethodsDemo fd=new FactoryMethodsDemo();
 
     }
 }

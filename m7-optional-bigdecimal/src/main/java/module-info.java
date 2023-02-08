@@ -1,4 +1,4 @@
-module module8 {
+module module7 {
 
-    requires module9;
+    requires module8;
 }
